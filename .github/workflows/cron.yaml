@@ -1,6 +1,7 @@
 name: sa-restaurant-inspector
 
 on:
+  workflow_dispatch
   push:
     branches:
       - master
