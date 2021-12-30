@@ -1,0 +1,25 @@
+Restaurant Name: Fabitos
+Inspection Date: 12/01/2021
+Score: 79
+Address: 1417  WEST AV
+Repeat violations: 2
+Full report: https://samhd-tx.mydhd.com/webadmin/dhd_134/paper/_paper_inspection_food.cfm?inspectionID=3127383&parentTableName=tblInspection&dsn=DHD_134&&domainID=134&wguid=1367&wgunm=sysact&wgdmn=134
+--------
+Restaurant Name: Plaza Tapatia Mexican Grill
+Inspection Date: 12/02/2021
+Score: 74
+Address: 820  POTRANCO RD
+Repeat violations: 0
+Full report: https://samhd-tx.mydhd.com/webadmin/dhd_134/paper/_paper_inspection_food.cfm?inspectionID=3133580&parentTableName=tblInspection&dsn=DHD_134&&domainID=134&wguid=1367&wgunm=sysact&wgdmn=134
+Observed dry dirty towels in kitchen areas sitting on cutting boards
+Observed employee rinse hands at three compartment sink
+Observed employee grab pico de gallo with bare hands
+Observed large pot with raw beef sitting on floor in walk in cooler
+Observed boxes of cooking oil sitting on floor in kitchen
+Observed uncovered containers of foods (raw and cooked) in cold hold units, walk in cooler, and freezer
+Observed broken spatula hanging by three compartment sink
+Observed small foam cup being used to scoop salsa
+Observed debris build up along racks in walk in cooler
+Observed debris buildup along gaskets in cold hold units
+Observed uncovered personal drinks, and personal water bottles, keys, alkaline liquid for beverages, sitting on food preparation tables, stove, and food storing shelves
+--------
