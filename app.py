@@ -5,7 +5,7 @@ from io import BytesIO
 import datetime
 
 # Save the current date and time so that we may prepend the update with timestamp later on.
-now = datetime.datetime.now()
+# now = datetime.datetime.now()
 
 # This function allows us to load an xlsx file from a URL for use by openpyxl.
 
@@ -114,8 +114,7 @@ def getInspectionDetails(f='', content=''):
         restaurantInfoList.append('## {}\n**Inspection date:** {}\n\n**Score:** {}\n\n**Address:** {}\n\n**Repeat violations:** {}\n\n[Full report]({})\n\n**Notable observations:**\n* {}\n'.format(
             restaurant_name, inspection_date, score, address, repeat_violations, inspection, observationList))
         print('--------')
-    f.write('Updated: {}\n'.format(str(now)) +
-            '\n'.join(restaurantInfoList) + '\n***\n' + content)
+    f.write('\n'.join(restaurantInfoList) + '\n***\n' + content)
 
 
 with open('story.md', "r+") as f:
