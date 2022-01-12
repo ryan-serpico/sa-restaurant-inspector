@@ -2,7 +2,6 @@ import requests
 import bs4
 import openpyxl
 from io import BytesIO
-import datetime
 
 # Save the current date and time so that we may prepend the update with timestamp later on.
 # now = datetime.datetime.now()
