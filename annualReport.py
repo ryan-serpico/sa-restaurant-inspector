@@ -46,7 +46,10 @@ def combineData():
         ws = wb[wb.sheetnames[0]]
         links = []
         for i in range(2, ws.max_row + 1):
-            links.append(ws.cell(row=i, column=7).hyperlink.target)
+            try:
+                links.append(ws.cell(row=i, column=7).hyperlink.target)
+            except:
+                links.append('missing')
         df['Link'] = links
         all_data = pd.concat([all_data, df])
     all_data.drop('LINK', axis=1, inplace=True)

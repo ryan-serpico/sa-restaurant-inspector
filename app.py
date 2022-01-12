@@ -31,13 +31,16 @@ def getLatestRestaurantReport():
     url = 'https://www.sanantonio.gov/Health/News/RestaurantReports'
     response = requests.get(url)
     soup = bs4.BeautifulSoup(response.text, 'html.parser')
-    table = soup.select('#lt-229314082-2021')
+    # table = soup.select('#lt-229314082-2021')
+    table = soup.select('#lt-229314405-2022')
     last_link = table[0].select('a')[-1]['href']
     absolute_url = 'https://www.sanantonio.gov' + last_link
     wb = load_workbook_from_url(absolute_url)
     ws = wb[wb.sheetnames[0]]
     return ws
 
+
+getLatestRestaurantReport()
 # This function grabs all of the individual report links from the main report and returns them as a list.
 
 
